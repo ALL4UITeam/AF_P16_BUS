@@ -1,11 +1,11 @@
 {
-  "name": "hanyang",
+  "name": "AF_P16_BUS",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "devDependencies": {
     "vite": "^5.0.0",
