@@ -24,7 +24,7 @@
 	<link rel="icon" type="image/x-icon" href="/images/ico/favicon.ico">
 	<link rel="apple-touch-icon-precomposed" type="/image/x-icon" href="images/ico/favicon.ico">
 	<link rel="shortcut icon" type="image/x-icon" href="/images/ico/favicon.ico">
-	<link rel="stylesheet" href="./assets/fonts/pretendard-gov.css">
+	<link rel="stylesheet" href="./assets/fonts/esamanru.css">
 	<link rel="stylesheet" href="./libs/simplebar/simplebar.css">
 	
 	
@@ -53,10 +53,16 @@
 			</div>
 			<footer class="bus-record__footer">
 				<p class="start-time">시작 시간 <time datetime="10:00">오전 10:00</time></p>
-				<p class="work-time">업무 시간 <span>12시간 20분</span></p>
+				<p class="work-time">업무 시간 <time datetime="12:20">12시간 20분</time></p>
 			</footer>
 		</section>
 
 	</main>
 
+	<script>
+		$('.btn-start').on('click', function () {
+			$(this).toggleClass('stop');
+		})
+	</script>
+
 </body>

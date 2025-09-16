@@ -18,13 +18,15 @@
 						<img src="./assets/images/dashboard/logo.png" alt="">
 					</h1>
 					<div class="place-title">
-						<span>본관 3층 / 응급실 앞</span>
+						<span class="floor">본관 3층</span>
+						<span class="divider">/</span>
+						<span class="spot">응급실 앞</span>
 					</div>
 				</div>
 				<div class="now">
 					<div class="weather">
-						<span class="icon"><img src="./assets/images/dashboard/ico-weather.png" alt="맑고 구름 조금"></span>
 						<div class="temp"><strong>32</strong>°C</div>
+						<span class="icon"><img src="./assets/images/dashboard/ico-weather.png" alt="맑고 구름 조금"></span>
 					</div>
 					<div class="datetime">
 						<div class="date">2025년 08월 15일 (금)</div>
@@ -33,9 +35,10 @@
 				</div>
 			</div>
 
-			<!-- 1호차 카드 -->
 			<div class="route-inner">
-				<div class="route-card route-card--green">
+                <!-- 1호차 카드 -->
+                <!-- cslass - close - 운행종료 -->
+				<div class="route-card route-card--green close">
 					<div class="route-card__head">
 						<div class="route-card__title">
 							<i class="icon icon--green" aria-hidden="true"></i>
@@ -59,12 +62,11 @@
 							<span class="section">본관 1층</span>
 							<i class="chev" aria-hidden="true"></i>
 							<div class="arrival arrival--soon">
-								<span>12분 후 도착</span>
+								<span>운행종료</span>
 							</div>
 							<i class="chev" aria-hidden="true"></i>
 							<span class="section">병원 정문</span>
 						</div>
-
 						<div class="track track__green">
 							<!-- 진행선 -->
 							<div class="track__line"></div>
@@ -83,20 +85,17 @@
 									<button type="button" class="pill pill--here">현 위치</button>
 								</li>
 							</ol>
-							<!-- 버스 아이콘 -->
-							<div class="bus green--bus" style="left:30%" aria-label="현재 버스 위치" title="현재 버스 위치">
-								<i class="ico-bus"><img src="./assets/images/dashboard/green-bus.png" alt=""></i>
-							</div>
 						</div>
 					</div>
 				</div>
 
 				<!-- 2,3,4호차 카드 -->
-				<div class="route-card route-card--purple">
+                <!-- cslass - close - 운행종료 -->
+				<div class="route-card route-card--purple close">
 					<div class="route-card__head">
 						<div class="route-card__title">
 							<i class="icon icon--blue" aria-hidden="true"></i>
-							<span class="badge badge--bus badge--blue">2·3·4호차</span>
+							<span class="badge badge--bus badge--blue">2 · 3 · 4호차</span>
 							<h2>왕십리역 방향</h2>
 						</div>
 						<div class="service-hours">
@@ -116,7 +115,7 @@
 							<span class="section">본관 1층</span>
 							<i class="chev" aria-hidden="true"></i>
 							<div class="arrival arrival--minute">
-								<span>2분 후 도착</span>
+								<span>운행종료</span>
 							</div>
 							<i class="chev" aria-hidden="true"></i>
 							<span class="section">병원 후문</span>
@@ -145,17 +144,8 @@
 									<button type="button" class="pill pill--here">현 위치</button>
 								</li>
 							</ol>
+						</div>		
 
-							<div class="bus blue--bus" style="left:30%" aria-label="현재 버스 위치" title="현재 버스 위치">
-								<i class="ico-bus"><img src="./assets/images/dashboard/blue-bus.png" alt=""></i>
-							</div>
-							<div class="bus blue--bus" style="left:60%" aria-label="현재 버스 위치" title="현재 버스 위치">
-								<i class="ico-bus"><img src="./assets/images/dashboard/blue-bus.png" alt=""></i>
-							</div>
-							<div class="bus blue--bus" style="left:80%" aria-label="현재 버스 위치" title="현재 버스 위치">
-								<i class="ico-bus"><img src="./assets/images/dashboard/blue-bus.png" alt=""></i>
-							</div>
-						</div>						
 					</div>
 				</div>
 			</div>

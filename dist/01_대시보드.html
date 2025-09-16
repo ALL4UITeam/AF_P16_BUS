@@ -24,7 +24,7 @@
 	<link rel="icon" type="image/x-icon" href="/images/ico/favicon.ico">
 	<link rel="apple-touch-icon-precomposed" type="/image/x-icon" href="images/ico/favicon.ico">
 	<link rel="shortcut icon" type="image/x-icon" href="/images/ico/favicon.ico">
-	<link rel="stylesheet" href="./assets/fonts/pretendard-gov.css">
+	<link rel="stylesheet" href="./assets/fonts/esamanru.css">
 	<link rel="stylesheet" href="./libs/simplebar/simplebar.css">
 	
 	
@@ -46,15 +46,13 @@
 						<img src="./assets/images/logo.png" alt="">
 					</h1>
 					<div class="place-title">
-						<span class="floor">본관 3층</span>
-						<span class="divider">/</span>
-						<span class="spot">응급실 앞</span>
+						<span>본관 3층 / 응급실 앞</span>
 					</div>
 				</div>
 				<div class="now">
 					<div class="weather">
-						<div class="temp"><strong>32</strong>°C</div>
 						<span class="icon"><img src="./assets/images/ico-weather.png" alt="맑고 구름 조금"></span>
+						<div class="temp"><strong>32</strong>°C</div>
 					</div>
 					<div class="datetime">
 						<div class="date">2025년 08월 15일 (금)</div>
@@ -77,10 +75,10 @@
 								<dt>평일</dt>
 								<dd>첫차 8:00, 막차 17:10 (12분 간격)</dd>
 							</dl>
-							<dl class="service-row">
+							<!-- <dl class="service-row">
 								<dt>토요일</dt>
 								<dd>첫차 8:00, 막차 17:10 (25분 간격)</dd>
-							</dl>
+							</dl> -->
 						</div>
 					</div>
 
@@ -89,9 +87,9 @@
 							<span class="section">본관 1층</span>
 							<i class="chev" aria-hidden="true"></i>
 							<div class="arrival arrival--soon">
-								<span>잠시 후 도착</span>
+								<span>12분 후 도착</span>
 							</div>
-							<i class="chev" aria-hidden="true">›</i>
+							<i class="chev" aria-hidden="true"></i>
 							<span class="section">병원 정문</span>
 						</div>
 
@@ -103,10 +101,7 @@
 								<li class="node">
 									<i class="node--circle"></i>
 									<div class="stop">
-										병원정문<br /><em>(한양대역)</em><br>
-										<div class="route-badges">
-											<span class="metro metro--2">2</span>
-										</div>
+										병원정문<span class="metro metro--2">2</span><br /><em>(한양대역)</em><br>
 									</div>
 								</li>
 								<li class="node"><i class="node--circle"></i><span class="stop">병원 후문</span></li>
@@ -118,12 +113,9 @@
 							</ol>
 							<!-- 버스 아이콘 -->
 							<div class="bus green--bus" style="left:30%" aria-label="현재 버스 위치" title="현재 버스 위치">
-								<div>1호차</div>
 								<i class="ico-bus"><img src="./assets/images/green-bus.png" alt=""></i>
 							</div>
 						</div>
-
-						
 					</div>
 				</div>
 
@@ -132,14 +124,14 @@
 					<div class="route-card__head">
 						<div class="route-card__title">
 							<i class="icon icon--blue" aria-hidden="true"></i>
-							<span class="badge badge--bus badge--blue">2 · 3 · 4호차</span>
+							<span class="badge badge--bus badge--blue">2·3·4호차</span>
 							<h2>왕십리역 방향</h2>
 						</div>
 						<div class="service-hours">
-							<dl class="service-row">
+							<!-- <dl class="service-row">
 								<dt>평일</dt>
 								<dd>첫차 8:00, 막차 17:10 (12분 간격)</dd> 
-							</dl>
+							</dl> -->
 							<dl class="service-row">
 								<dt>토요일</dt>
 								<dd>첫차 8:00, 막차 17:10 (12분 간격)</dd>
@@ -164,12 +156,12 @@
 								<li class="node">
 									<i class="node--circle"></i>
 									<div class="stop">
-										왕십리역<br /><em>6-1출구 건너편<br>(롯데리아 앞)</em>
+										왕십리역</em>
 										<div class="route-badges">
 											<span class="metro metro--2">2</span>
-											<span class="metro metro--suin">수인분당</span>
 											<span class="metro metro--5">5</span>
 											<span class="metro metro--gyeongui">경의중앙</span>
+											<span class="metro metro--suin">수인분당</span>
 										</div>
 									</div>
 								</li>
@@ -183,15 +175,12 @@
 							</ol>
 
 							<div class="bus blue--bus" style="left:30%" aria-label="현재 버스 위치" title="현재 버스 위치">
-								<div>4호차</div>
 								<i class="ico-bus"><img src="./assets/images/blue-bus.png" alt=""></i>
 							</div>
 							<div class="bus blue--bus" style="left:60%" aria-label="현재 버스 위치" title="현재 버스 위치">
-								<div>2호차</div>
 								<i class="ico-bus"><img src="./assets/images/blue-bus.png" alt=""></i>
 							</div>
 							<div class="bus blue--bus" style="left:80%" aria-label="현재 버스 위치" title="현재 버스 위치">
-								<div>3호차</div>
 								<i class="ico-bus"><img src="./assets/images/blue-bus.png" alt=""></i>
 							</div>
 						</div>						
@@ -202,29 +191,8 @@
 
 		<!-- 우측 지도 -->
 		<main class="map">
-			<div class=" map--mode__top">
-				<div class="map--mode">
-					<button type="button" class="btn btn--mode plural_toggle is-active">일반</button>
-					<button type="button" class="btn btn--mode plural_toggle">위성</button>
-				</div>
-			</div>
-			<div class="map--mode__bottom">
-				<div class="map--mode">
-					<button type="button" class="btn btn--mode location" title="위치"></button>
-				</div>
-				<div class="map--mode zoom">
-					<button type="button" class="btn btn--mode zoomin" title="확대"></button>
-					<button type="button" class="btn btn--mode zoomout" title="축소"></button>
-				</div>
-			</div>
 		</main>
 	</div>
 
-	<script>
-		$('.plural_toggle').click(function(){
-			$(this).toggleClass('is-active');
-			$(this).siblings().removeClass('is-active');
-		})
-	</script>
 </body>
 </html>
