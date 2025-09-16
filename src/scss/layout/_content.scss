@@ -259,7 +259,7 @@ body{
         font-size: 140px;
         font-weight: bold;
         color:#FFFF00;
-        animation: blink 3s step-start infinite;
+        animation: blink 2s step-start infinite;
     }
 }
 .route-card{
@@ -628,7 +628,6 @@ body{
 }
 
 @keyframes blink {
-  50% {
-    opacity: 0;
-  }
+    0%, 69%   { opacity: 1; }
+    70%, 100% { opacity: 0; }
 }
