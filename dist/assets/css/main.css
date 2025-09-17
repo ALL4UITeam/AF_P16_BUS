@@ -291,7 +291,7 @@ body {
   background-size: contain;
 }
 .bus-record__footer p time {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: bold;
 }
 .bus-record__footer p.start-time {
@@ -439,7 +439,7 @@ body {
 .route-card.close .timeline .arrival {
   border: 10px solid var(--hs);
 }
-.route-card.close .timeline .arrival span {
+.route-card.close .timeline .arrival div {
   color: var(--hs);
 }
 .route-card--green {
@@ -579,7 +579,7 @@ body {
   flex-shrink: 0;
   border: 10px solid transparent;
 }
-.timeline__meta .arrival span {
+.timeline__meta .arrival div {
   display: block;
   width: 100%;
   position: absolute;
@@ -587,8 +587,11 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
-  font-size: 72px;
+  font-size: 60px;
   font-weight: bold;
+}
+.timeline__meta .arrival div span {
+  font-size: 72px;
 }
 .timeline__meta .arrival--soon {
   background-image: linear-gradient(#fff, #fff), linear-gradient(160deg, #CAE7A0, #7DB928, #64A010, #203600);
@@ -596,7 +599,7 @@ body {
   background-clip: padding-box, border-box;
   font-size: 46px;
 }
-.timeline__meta .arrival--soon span {
+.timeline__meta .arrival--soon div {
   color: var(--hyg);
   letter-spacing: -2px;
 }
@@ -605,7 +608,7 @@ body {
   background-origin: border-box;
   background-clip: padding-box, border-box;
 }
-.timeline__meta .arrival--minute span {
+.timeline__meta .arrival--minute div {
   color: var(--hb);
 }
 .timeline__meta .chev {

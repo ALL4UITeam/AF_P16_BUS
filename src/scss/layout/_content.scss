@@ -120,7 +120,7 @@ body{
             background-repeat: no-repeat;
             background-size: contain;
             time{
-                font-size: 36px;
+                font-size: 32px;
                 font-weight: bold;
             }
             &.start-time{
@@ -275,7 +275,7 @@ body{
         .timeline{
             .arrival{
                 border: 10px solid var(--hs);
-                span{
+                div{
                     color: var(--hs);
                 }
             }
@@ -418,7 +418,7 @@ body{
             border-radius:67px;
             flex-shrink: 0;
             border:10px solid transparent ;
-            span{
+            div{
                 display: block;
                 width: 100%;
                 position: absolute;
@@ -426,15 +426,18 @@ body{
                 top: 50%;
                 transform: translate(-50%, -50%);
                 box-sizing: border-box;
-                font-size: 72px;
+                font-size: 60px;
                 font-weight: bold;
+                span{
+                    font-size: 72px;
+                }   
             }
             &--soon{
                 background-image:linear-gradient(#fff, #fff), linear-gradient(160deg, #CAE7A0 ,#7DB928 ,#64A010, #203600);
                 background-origin:border-box; 
                 background-clip:padding-box, border-box;
                 font-size: 46px;
-                span{
+                div{
                     color:var(--hyg);
                     letter-spacing: -2px;
                 }
@@ -443,7 +446,7 @@ body{
                 background-image:linear-gradient(#fff, #fff), linear-gradient(160deg, #96B3DD ,#0F579D ,#085093, #000039);
                 background-origin:border-box; 
                 background-clip:padding-box, border-box;
-                span{
+                div{
                     color:var(--hb)
                 }
             }   
